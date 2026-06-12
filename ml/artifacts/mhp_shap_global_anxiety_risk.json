@@ -1,0 +1,122 @@
+[
+  {
+    "feature": "depression_value",
+    "importance": 0.358568,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Depression Value"
+  },
+  {
+    "feature": "phq2",
+    "importance": 0.272746,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Phq2"
+  },
+  {
+    "feature": "pss3",
+    "importance": 0.248255,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Pss3"
+  },
+  {
+    "feature": "stress_label",
+    "importance": 0.165275,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Stress Label"
+  },
+  {
+    "feature": "depression_label",
+    "importance": 0.144961,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Depression Label"
+  },
+  {
+    "feature": "phq6",
+    "importance": 0.135966,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Phq6"
+  },
+  {
+    "feature": "phq4",
+    "importance": 0.125925,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Phq4"
+  },
+  {
+    "feature": "pss10",
+    "importance": 0.121317,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Pss10"
+  },
+  {
+    "feature": "pss4",
+    "importance": 0.085608,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Pss4"
+  },
+  {
+    "feature": "phq3",
+    "importance": 0.085174,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Phq3"
+  },
+  {
+    "feature": "pss2",
+    "importance": 0.077194,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Pss2"
+  },
+  {
+    "feature": "pss9",
+    "importance": 0.074521,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Pss9"
+  },
+  {
+    "feature": "stress_value",
+    "importance": 0.070226,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Stress Value"
+  },
+  {
+    "feature": "phq8",
+    "importance": 0.062142,
+    "direction_summary": "mixed_or_low_directional_effect",
+    "user_friendly_label": "Phq8"
+  },
+  {
+    "feature": "phq7",
+    "importance": 0.051962,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Phq7"
+  },
+  {
+    "feature": "phq9",
+    "importance": 0.046027,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Phq9"
+  },
+  {
+    "feature": "pss6",
+    "importance": 0.042788,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Pss6"
+  },
+  {
+    "feature": "phq5",
+    "importance": 0.041999,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Phq5"
+  },
+  {
+    "feature": "pss1",
+    "importance": 0.039634,
+    "direction_summary": "mixed_or_low_directional_effect",
+    "user_friendly_label": "Pss1"
+  },
+  {
+    "feature": "pss5",
+    "importance": 0.013861,
+    "direction_summary": "mixed_or_low_directional_effect",
+    "user_friendly_label": "Pss5"
+  }
+]

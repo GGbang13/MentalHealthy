@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+dist/
+build/
+target/
+out/
+coverage/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+*.log
+logs/
+uploads/
+backend/uploads/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Generated document/presentation working outputs
+tools/docx_render/
+tools/pptx_inspect_*/
+tools/_tmp_*/
+ppt_work/node_modules/
+ppt_work/output/
+ppt_work/scratch/

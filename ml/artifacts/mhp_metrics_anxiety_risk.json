@@ -1,0 +1,54 @@
+{
+  "target": "anxiety_risk",
+  "rows": 2028,
+  "feature_count": 30,
+  "categorical_features": [
+    "age",
+    "gender",
+    "university",
+    "department",
+    "academic_year",
+    "current_cgpa",
+    "waiver_or_scholarship",
+    "stress_label",
+    "depression_label"
+  ],
+  "accuracy": 0.835,
+  "precision": 0.9087,
+  "recall": 0.8388,
+  "f1": 0.8724,
+  "roc_auc": 0.9005,
+  "confusion_matrix": [
+    [
+      110,
+      23
+    ],
+    [
+      44,
+      229
+    ]
+  ],
+  "cross_validation": {
+    "folds": 5,
+    "accuracy": {
+      "mean": 0.8407,
+      "std": 0.0161
+    },
+    "precision": {
+      "mean": 0.9052,
+      "std": 0.0149
+    },
+    "recall": {
+      "mean": 0.8526,
+      "std": 0.0155
+    },
+    "f1": {
+      "mean": 0.8781,
+      "std": 0.0123
+    },
+    "roc_auc": {
+      "mean": 0.9098,
+      "std": 0.0085
+    }
+  }
+}

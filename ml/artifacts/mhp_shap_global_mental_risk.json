@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "university",
+    "importance": 0.088236,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "University"
+  },
+  {
+    "feature": "gender",
+    "importance": 0.03602,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Gender"
+  },
+  {
+    "feature": "academic_year",
+    "importance": 0.026066,
+    "direction_summary": "mixed_or_low_directional_effect",
+    "user_friendly_label": "Academic Year"
+  },
+  {
+    "feature": "current_cgpa",
+    "importance": 0.016267,
+    "direction_summary": "mixed_or_low_directional_effect",
+    "user_friendly_label": "Current Cgpa"
+  },
+  {
+    "feature": "age",
+    "importance": 0.006334,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Age"
+  },
+  {
+    "feature": "department",
+    "importance": 0.005273,
+    "direction_summary": "mixed_or_low_directional_effect",
+    "user_friendly_label": "Department"
+  },
+  {
+    "feature": "waiver_or_scholarship",
+    "importance": 0.005058,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Waiver Or Scholarship"
+  }
+]

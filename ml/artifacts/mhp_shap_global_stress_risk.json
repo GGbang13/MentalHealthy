@@ -1,0 +1,122 @@
+[
+  {
+    "feature": "university",
+    "importance": 0.35947,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "University"
+  },
+  {
+    "feature": "gad1",
+    "importance": 0.3163,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Gad1"
+  },
+  {
+    "feature": "phq6",
+    "importance": 0.288035,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Phq6"
+  },
+  {
+    "feature": "anxiety_label",
+    "importance": 0.247647,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Anxiety Label"
+  },
+  {
+    "feature": "gad4",
+    "importance": 0.199118,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Gad4"
+  },
+  {
+    "feature": "depression_label",
+    "importance": 0.171317,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Depression Label"
+  },
+  {
+    "feature": "phq2",
+    "importance": 0.167882,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Phq2"
+  },
+  {
+    "feature": "department",
+    "importance": 0.155932,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Department"
+  },
+  {
+    "feature": "depression_value",
+    "importance": 0.104175,
+    "direction_summary": "mixed_or_low_directional_effect",
+    "user_friendly_label": "Depression Value"
+  },
+  {
+    "feature": "gender",
+    "importance": 0.079703,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Gender"
+  },
+  {
+    "feature": "anxiety_value",
+    "importance": 0.079296,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Anxiety Value"
+  },
+  {
+    "feature": "phq1",
+    "importance": 0.077292,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Phq1"
+  },
+  {
+    "feature": "phq8",
+    "importance": 0.074981,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Phq8"
+  },
+  {
+    "feature": "current_cgpa",
+    "importance": 0.069819,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Current Cgpa"
+  },
+  {
+    "feature": "phq5",
+    "importance": 0.06899,
+    "direction_summary": "mixed_or_low_directional_effect",
+    "user_friendly_label": "Phq5"
+  },
+  {
+    "feature": "gad5",
+    "importance": 0.068192,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Gad5"
+  },
+  {
+    "feature": "phq7",
+    "importance": 0.064426,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Phq7"
+  },
+  {
+    "feature": "gad6",
+    "importance": 0.061381,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Gad6"
+  },
+  {
+    "feature": "gad7",
+    "importance": 0.054507,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Gad7"
+  },
+  {
+    "feature": "academic_year",
+    "importance": 0.053676,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Academic Year"
+  }
+]

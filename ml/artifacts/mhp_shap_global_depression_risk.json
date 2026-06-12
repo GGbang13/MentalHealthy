@@ -1,0 +1,122 @@
+[
+  {
+    "feature": "anxiety_value",
+    "importance": 0.347887,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Anxiety Value"
+  },
+  {
+    "feature": "gad7",
+    "importance": 0.303748,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Gad7"
+  },
+  {
+    "feature": "stress_label",
+    "importance": 0.196274,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Stress Label"
+  },
+  {
+    "feature": "anxiety_label",
+    "importance": 0.184434,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Anxiety Label"
+  },
+  {
+    "feature": "stress_value",
+    "importance": 0.172705,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Stress Value"
+  },
+  {
+    "feature": "gad5",
+    "importance": 0.075058,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Gad5"
+  },
+  {
+    "feature": "gad4",
+    "importance": 0.06293,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Gad4"
+  },
+  {
+    "feature": "gad6",
+    "importance": 0.054824,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Gad6"
+  },
+  {
+    "feature": "pss4",
+    "importance": 0.05473,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Pss4"
+  },
+  {
+    "feature": "pss3",
+    "importance": 0.04803,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Pss3"
+  },
+  {
+    "feature": "age",
+    "importance": 0.039608,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Age"
+  },
+  {
+    "feature": "pss9",
+    "importance": 0.032151,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Pss9"
+  },
+  {
+    "feature": "pss2",
+    "importance": 0.017707,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Pss2"
+  },
+  {
+    "feature": "gad3",
+    "importance": 0.017324,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Gad3"
+  },
+  {
+    "feature": "pss1",
+    "importance": 0.015244,
+    "direction_summary": "higher_values_tend_to_lower_screening_risk",
+    "user_friendly_label": "Pss1"
+  },
+  {
+    "feature": "gad1",
+    "importance": 0.013227,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Gad1"
+  },
+  {
+    "feature": "waiver_or_scholarship",
+    "importance": 0.012854,
+    "direction_summary": "mixed_or_low_directional_effect",
+    "user_friendly_label": "Waiver Or Scholarship"
+  },
+  {
+    "feature": "pss5",
+    "importance": 0.012615,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Pss5"
+  },
+  {
+    "feature": "academic_year",
+    "importance": 0.012427,
+    "direction_summary": "higher_values_tend_to_raise_screening_risk",
+    "user_friendly_label": "Academic Year"
+  },
+  {
+    "feature": "pss7",
+    "importance": 0.011999,
+    "direction_summary": "mixed_or_low_directional_effect",
+    "user_friendly_label": "Pss7"
+  }
+]

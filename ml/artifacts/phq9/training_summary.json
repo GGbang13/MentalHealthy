@@ -1,0 +1,29 @@
+{
+  "scale": "PHQ9",
+  "rows": 12,
+  "feature_count": 10,
+  "top_features": [
+    {
+      "feature": "familySupport",
+      "importance": 99.99945703747554
+    },
+    {
+      "feature": "selfWorthLow",
+      "importance": 0.0005429625244618803
+    },
+    {
+      "feature": "moodLow",
+      "importance": 0.0
+    },
+    {
+      "feature": "anhedonia",
+      "importance": 0.0
+    },
+    {
+      "feature": "sleepProblem",
+      "importance": 0.0
+    }
+  ],
+  "metrics_file": "ml/artifacts/phq9/phq9_metrics.json",
+  "model_file": "ml/artifacts/phq9/phq9_catboost_model.cbm"
+}

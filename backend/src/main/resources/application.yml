@@ -1,0 +1,43 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  application:
+
+    name: mental-health-platform
+  datasource:
+    url: ${MYSQL_URL:jdbc:mysql://localhost:3306/mental_health_platform?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai}
+    username: ${MYSQL_USERNAME:root}
+    password: ${MYSQL_PASSWORD:mysql}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      database: ${REDIS_DATABASE:0}
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+security:
+  jwt:
+    secret: ${JWT_SECRET:ReplaceThisJwtSecretKeyForProductionEnvironment123456}
+    expiration: ${JWT_EXPIRATION:86400000}
+
+app:
+  upload-path: ${APP_UPLOAD_PATH:uploads/}
+  security:
+    allowed-origins: ${APP_ALLOWED_ORIGINS:http://localhost:5173,http://127.0.0.1:5173}
+  ml:
+    enabled: ${APP_ML_ENABLED:true}
+    python-command: ${APP_ML_PYTHON_COMMAND:python}
+    script-path: ${APP_ML_SCRIPT_PATH:../ml/predict_catboost.py}
+    artifacts-dir: ${APP_ML_ARTIFACTS_DIR:../ml/artifacts}
+    timeout-seconds: ${APP_ML_TIMEOUT_SECONDS:15}

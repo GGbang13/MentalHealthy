@@ -1,0 +1,29 @@
+{
+  "scale": "GAD7",
+  "rows": 12,
+  "feature_count": 10,
+  "top_features": [
+    {
+      "feature": "relaxationAbility",
+      "importance": 100.0
+    },
+    {
+      "feature": "nervousness",
+      "importance": 0.0
+    },
+    {
+      "feature": "uncontrollableWorry",
+      "importance": 0.0
+    },
+    {
+      "feature": "irritability",
+      "importance": 0.0
+    },
+    {
+      "feature": "restlessness",
+      "importance": 0.0
+    }
+  ],
+  "metrics_file": "ml/artifacts/gad7/gad7_metrics.json",
+  "model_file": "ml/artifacts/gad7/gad7_catboost_model.cbm"
+}
